@@ -10,3 +10,6 @@
 [submodule "emacs.d/vendor/evil-lispy"]
 	path = emacs.d/vendor/evil-lispy
 	url = https://github.com/bcarrell/evil-lispy
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/szewczykmira/prezto.git
