@@ -25,9 +25,12 @@
   "\\" 'evilnc-comment-operator ; if you prefer backslash key
   "r" 'helm-M-x
   "w" 'save-buffer
+  "C-w" 'delete-trailing-whitespace
   "q" 'evil-quit
   "g" 'magit-status
   "e" 'neotree-toggle)
+
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 
 (defun minibuffer-keyboard-quit ()
   "Abort recursive edit.
@@ -63,3 +66,5 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 (setq evil-insert-state-cursor '((bar . 3) "grey")
       evil-normal-state-cursor '(box "grey"))
+
+(add-to-list 'evil-emacs-state-modes 'helm-minor-mode)
