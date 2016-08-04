@@ -1,15 +1,6 @@
 [submodule "vim/vim/bundle/Vundle.vim"]
 	path = vim/vim/bundle/Vundle.vim
 	url = https://github.com/gmarik/Vundle.vim
-[submodule "emacs.d/themes/emacs-color-theme-solarized"]
-	path = emacs.d/themes/emacs-color-theme-solarized
-	url = https://github.com/sellout/emacs-color-theme-solarized
-[submodule "emacs.d/vendor/evil-rebellion"]
-	path = emacs.d/vendor/evil-rebellion
-	url = https://github.com/tarleb/evil-rebellion
-[submodule "emacs.d/vendor/evil-lispy"]
-	path = emacs.d/vendor/evil-lispy
-	url = https://github.com/bcarrell/evil-lispy
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/szewczykmira/prezto.git
