@@ -58,5 +58,6 @@ Plugin 'tpope/vim-dispatch'
 " Plugin 'tpope/vim-classpath'
 Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
+Plugin 'leafgarland/typescript-vim'
 " End-of Clojure Specific
 call vundle#end()
