@@ -3,4 +3,4 @@
 	url = https://github.com/gmarik/Vundle.vim
 [submodule "prezto"]
 	path = prezto
-	url = https://github.com/szewczykmira/prezto.git
+	url = git@github.com:szewczykmira/prezto.git
