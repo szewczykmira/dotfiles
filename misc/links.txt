@@ -23,3 +23,5 @@ xscreensaver      -> misc/xscreensaver
 lein/profiles.clj -> misc/lein_profiles.clj
 # emacs
 # emacs.d           -> emacs.d
+# redshift
+redshift.conf     -> misc/redshift.conf
