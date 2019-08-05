@@ -1,4 +1,4 @@
-" vi: syntax=vim, filetype=vim
+" vi: syntax=vim  filetype=vim
 
 " \ is too far to be a good leader
 map <Space> <Leader>

@@ -1,4 +1,4 @@
-" vi: syntax=vim, filetype=vim
+" vi: syntax=vim
 
 set nocompatible
 filetype off
@@ -21,7 +21,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'SirVer/ultisnips'
 Plugin 'Raimondi/delimitMate'
-Plugin 'ap/vim-css-color'
+" Plugin 'ap/vim-css-color'
 Plugin 'chrisbra/unicode.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'majutsushi/tagbar'

@@ -1,32 +1,4 @@
-" vi: syntax=vim, filetype=vim
-
-" use neco-ghc with YCM
-let g:ycm_semantic_triggers = {'haskell' : ['.']}
-au FileType haskell setlocal omnifunc=necoghc#omnifunc
-
-" let vroom use vimux for running test
-let g:vroom_use_vimux = 1
-
-" use 'ripper-tags' (if available) to generate ruby ctags with tagbar
-if executable('ripper-tags')
-    " Configure Tagbar to user ripper-tags with ruby
-    let g:tagbar_type_ruby = {
-                \ 'kinds' : [
-                    \ 'm:modules',
-                    \ 'c:classes',
-                    \ 'f:methods',
-                    \ 'F:singleton methods',
-                    \ 'C:constants',
-                    \ 'a:aliases'
-                \ ],
-                \ 'ctagsbin':  'ripper-tags',
-                \ 'ctagsargs': ['-f', '-']
-                \ }
-endif
-let g:tagbar_autoclose=1
-let g:tagbar_autofocus=1
-let g:tagbar_sort = 0
-
+" vi: syntax=vim filetype=vim
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend|hi|ho)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py|node_modules|(.*/out/./*)|(.*/compiled/.*)|(.*/target/.*)'
@@ -62,7 +34,6 @@ hi IndentGuidesOdd  ctermbg=24
 hi IndentGuidesEven ctermbg=25
 
 au FileType vim let b:delimitMate_autoclose = 0
-au FileType clojure let b:delimitMate_quotes = '"'
 
 " Autoclose complete window
 autocmd CompleteDone * pclose
