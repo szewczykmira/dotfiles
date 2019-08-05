@@ -1,4 +1,5 @@
-##My configuration files.
+# Config.
+Set up of my MacOS computers. 
 
-###Installation
+### Installation.
 `git clone --recursive https://github.com/szewczykmira/dotfiles && ruby dotfiles/scripts/update_links.rb`
