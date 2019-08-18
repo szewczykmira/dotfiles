@@ -4,6 +4,10 @@ function! LoadFile(var)
   endif
 endfunction
 
+if (has("termguicolors"))
+  set termguicolors
+endif
+
 call LoadFile('/etc/vimrc')
 call LoadFile($HOME . '/.vim-vundlerc')
 
@@ -25,7 +29,8 @@ set foldlevel=2 " Start folding when nested 2 times
 
 set t_Co=256 " Use 256 colours
 set background=dark " Dark background
-color solarized " Solarized color scheme
+"color solarized " Solarized color scheme
+colorscheme spacemacs-theme
 
 set showcmd	" Show (partial) command in status line.
 set showmatch	" Show matching brackets.
