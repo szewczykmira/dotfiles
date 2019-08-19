@@ -1,0 +1,16 @@
+*.swp
+__pycache__/
+.vscode/
+node_modules
+
+# Folder view configuration files
+.DS_STORE
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Compiled python files
+*.pyc
+
