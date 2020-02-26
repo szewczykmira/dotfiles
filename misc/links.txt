@@ -17,3 +17,9 @@ dir_colors        -> misc/dir_colors
 # Xdefaults         -> misc/Xdefaults
 # emacs
 # emacs.d           -> emacs.d
+
+# direnvrc
+direnvrc         -> direnv/direnvrc
+
+# gitignore
+gitignore        -> git/gitignore
