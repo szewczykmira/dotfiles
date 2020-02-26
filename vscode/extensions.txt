@@ -1,0 +1,15 @@
+2gua.rainbow-brackets
+angelo-breuer.clock
+bibhasdn.django-snippets
+cometeer.spacemacs
+donjayamanne.python-extension-pack
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+Gruntfuggly.todo-tree
+ms-python.python
+Mukundan.python-docs
+naumovs.color-highlight
+thebarkman.vscode-djaneiro
+VisualStudioExptTeam.vscodeintellicode
+vscode-icons-team.vscode-icons
