@@ -2,14 +2,14 @@ from argparse import ArgumentParser
 import os
 import sys
 
+def validate_python_version():
+    if not sys.version.startswith("3"):
+        raise OSError("This code must be run with python 3.6+")
+
 
 def validate_code_instalation():
-    try:
-        os.system("code --version")
-    except:
-        print(
-            "Run this before: https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"
-        )
+    if os.system("code --version") == 32512:
+        raise OSError("Run this before: https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line")
 
 
 def update_extensions_lists():
@@ -36,7 +36,7 @@ if __name__ == "__main__":
         action="store_true",
         help="Install VS Code extensions listed in extensions.txt",
     )
-
+    validate_python_version()
     validate_code_instalation()
     args = parser.parse_args()
     if args.updating:
