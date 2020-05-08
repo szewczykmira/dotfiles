@@ -25,6 +25,4 @@ direnvrc         -> direnv/direnvrc
 gitignore_global  -> git/gitignore
 gitconfig         -> git/gitconfig
 
-# virtualenvwrapper
-.virtualenvs/postmkvirutalenv -> virtualenvwrapper/postmkvirtualenv
 
