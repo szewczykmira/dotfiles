@@ -26,6 +26,7 @@ Plugin 'chrisbra/unicode.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'majutsushi/tagbar'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'liuchengxu/space-vim-dark'
 Plugin 'colepeters/spacemacs-theme.vim'
 " TODO: fix issue with YouCompleteMe
 "Plugin 'Valloric/YouCompleteMe'

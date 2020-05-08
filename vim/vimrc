@@ -30,7 +30,8 @@ set foldlevel=2 " Start folding when nested 2 times
 set t_Co=256 " Use 256 colours
 set background=dark " Dark background
 "color solarized " Solarized color scheme
-colorscheme spacemacs-theme
+"colorscheme spacemacs-theme
+colorscheme space-vim-dark
 
 set showcmd	" Show (partial) command in status line.
 set showmatch	" Show matching brackets.
