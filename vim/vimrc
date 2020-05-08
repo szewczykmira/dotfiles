@@ -44,3 +44,8 @@ set hidden " Don't force saving buffers when leaving them
 
 call LoadFile($HOME . '/.vim-pluginrc')
 call LoadFile($HOME . '/.vim-bindrc')
+
+
+" airline settings:
+let g:airline_powerline_fonts = 1
+
