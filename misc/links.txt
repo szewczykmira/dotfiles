@@ -22,4 +22,9 @@ dir_colors        -> misc/dir_colors
 direnvrc         -> direnv/direnvrc
 
 # gitignore
-gitignore        -> git/gitignore
+gitignore_global  -> git/gitignore
+gitconfig         -> git/gitconfig
+
+# virtualenvwrapper
+.virtualenvs/postmkvirutalenv -> virtualenvwrapper/postmkvirtualenv
+
