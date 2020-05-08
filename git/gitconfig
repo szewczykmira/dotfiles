@@ -1,6 +1,21 @@
 [core]
-
   editor = vim
   excludesfile = ~/.gitignore_global
+
+[color]
+  branch = auto
+  interactive = auto
+  status = auto 
+  diff = auto
+
+[column]
+  branch = column
+
 [include]
   path = ~/.gitconfig_custom
+
+[pull]
+	rebase = true
+
+[url "git@github.com:"]
+	insteadOf = gh:
