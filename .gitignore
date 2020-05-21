@@ -8,4 +8,3 @@
 # vim Vundle files
 vim/vim/bundle/*
 !vim/vim/bundle/Vundle.vim
-com.googlecode.iterm2.plist
