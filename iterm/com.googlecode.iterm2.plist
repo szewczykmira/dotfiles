@@ -738,9 +738,15 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Pictures/Tapety</string>
+	<string>~/Library/Application Support/iTerm2/Scripts</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{841, 448}</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -787,7 +793,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>929 113 445 103 0 0 1440 878 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>309 165 799 448 0 0 1440 877 </string>
+	<string>859 724 841 470 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 363 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
@@ -797,9 +803,9 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>186 432 650 438 0 0 1440 877 </string>
+	<string>0 521 1440 379 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 1440 877 0 0 1440 900 </string>
+	<string>0 505 650 422 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2380,7 +2386,7 @@
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Shortcut</key>
-			<string>B</string>
+			<string>R</string>
 			<key>Silence Bell</key>
 			<false/>
 			<key>Space</key>
@@ -3193,8 +3199,8 @@
 		<string>3.3.7</string>
 		<string>3.3.9</string>
 		<string>3.3.0</string>
-		<string>3.3.2</string>
 		<string>3.2.9</string>
+		<string>3.3.2</string>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
@@ -3214,7 +3220,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{243, 691}</string>
+		<string>{269, 595}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
@@ -3229,7 +3235,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>594404586.18477499</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>101</integer>
+	<integer>107</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3244,6 +3250,11 @@
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
+	<key>NoSyncPersistentRateLimitedUpdates</key>
+	<dict>
+		<key>CheckForUpdatedPythonRuntime</key>
+		<real>612033499.98685205</real>
+	</dict>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -4111,7 +4122,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-05-21T19:42:45Z</date>
+	<date>2020-05-25T18:07:13Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -4156,6 +4167,8 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
