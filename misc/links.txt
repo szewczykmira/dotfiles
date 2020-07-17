@@ -13,7 +13,6 @@ zpreztorc         -> prezto/runcoms/zpreztorc
 zlogin            -> prezto/runcoms/zlogin
 zlogout           -> prezto/runcoms/zlogout
 # misc
-dir_colors        -> misc/dir_colors
 # Xdefaults         -> misc/Xdefaults
 # emacs
 # emacs.d           -> emacs.d
