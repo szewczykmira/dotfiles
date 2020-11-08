@@ -1,5 +1,22 @@
 {
     "todo-tree.tree.showScanModeButton": false,
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Spacemacs - dark"
+    "workbench.colorTheme": "Spacemacs - dark",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "editor.renameOnType": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.rename.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
