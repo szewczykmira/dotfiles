@@ -15,6 +15,8 @@ Thumbs.db
 *.pyc
 
 .envrc
+.env
+env
 
 # DO NOT PUSH PERMISIONS
 *.pem
