@@ -18,5 +18,10 @@
     },
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "workbench.editorAssociations": [],
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editor.enablePreview": false
 }
