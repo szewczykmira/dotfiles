@@ -1,3 +1,4 @@
 cask "firefox"
 cask "slack"
 cask "meetingbar"
+cask "gitify"
