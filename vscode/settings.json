@@ -23,5 +23,8 @@
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
     "explorer.confirmDragAndDrop": false,
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "editor.rulers": [
+    100
+    ]
 }
