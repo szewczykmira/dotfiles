@@ -26,5 +26,6 @@
     "workbench.editor.enablePreview": false,
     "editor.rulers": [
     100
-    ]
+    ],
+    "python.formatting.provider": "black"
 }

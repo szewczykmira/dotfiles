@@ -8,12 +8,15 @@ formulahendry.auto-rename-tag
 golang.go
 golang.go-nightly
 Gruntfuggly.todo-tree
+hbenl.vscode-test-explorer
 kortina.vscode-markdown-notes
+littlefoxteam.vscode-python-test-adapter
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-vsliveshare.vsliveshare
 naumovs.color-highlight
+njqdev.vscode-python-typehint
 rebornix.ruby
 tchayen.markdown-links
 VisualStudioExptTeam.vscodeintellicode
