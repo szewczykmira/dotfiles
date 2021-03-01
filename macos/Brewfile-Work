@@ -1,3 +1,4 @@
+brew "awscli"
 cask "firefox"
 cask "slack"
 cask "meetingbar"
