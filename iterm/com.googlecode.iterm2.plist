@@ -1391,7 +1391,7 @@
 				<real>0.14595560729503632</real>
 			</dict>
 			<key>Mouse Reporting</key>
-			<true/>
+			<false/>
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
@@ -3174,7 +3174,7 @@
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>ShowMetalFPSmeter</key>
-	<true/>
+	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<false/>
 	<key>ShowPaneTitles</key>

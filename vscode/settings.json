@@ -27,5 +27,6 @@
     "editor.rulers": [
     100
     ],
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "markdown.extension.toc.unorderedList.marker": "*"
 }
