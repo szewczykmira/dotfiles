@@ -1,6 +1,6 @@
-brew "awscli"
+tap "awscli"
 cask "firefox"
 cask "slack"
 cask "meetingbar"
 cask "gitify"
-cask "graphql-playground"
+tap "openapi-generator"

@@ -11,7 +11,6 @@ cmap w!! w !sudo tee > /dev/null %
 nmap ; :CtrlP<CR>
 nmap <Leader>; :Unite buffer<CR>
 nmap <Leader>e :NERDTreeToggle<CR>
-nmap <Leader>g :TagbarToggle<CR>
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>wq :wq<CR>
