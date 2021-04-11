@@ -19,7 +19,12 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.editorAssociations": [],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
     "explorer.confirmDragAndDrop": false,
