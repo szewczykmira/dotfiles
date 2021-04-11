@@ -7,3 +7,12 @@ Set up of my MacOS computers.
 
 ## Custom aliases etc
 For adding options to your zsh config that are specific for given workstation put them in `~/.zshrc_custom`
+
+
+## Customization
+to use VSCode as editor only for some repositories, add 
+```sh
+export GIT_EDITOR="code --wait"
+```
+to your `.envrc`
+
