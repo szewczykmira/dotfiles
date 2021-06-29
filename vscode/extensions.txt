@@ -5,6 +5,8 @@ eamodio.gitlens
 esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
+GitHub.github-vscode-theme
+groksrc.ruby
 Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
 kortina.vscode-markdown-notes
@@ -12,6 +14,7 @@ littlefoxteam.vscode-python-test-adapter
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-vscode.test-adapter-converter
 naumovs.color-highlight
 njqdev.vscode-python-typehint
 rebornix.ruby
