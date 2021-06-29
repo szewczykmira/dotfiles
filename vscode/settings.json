@@ -19,12 +19,9 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
     "explorer.confirmDragAndDrop": false,
@@ -33,5 +30,8 @@
     100
     ],
     "python.formatting.provider": "black",
-    "markdown.extension.toc.unorderedList.marker": "*"
+    "markdown.extension.toc.unorderedList.marker": "*",
+    "pythonTestExplorer.testFramework": "pytest",
+    "python.testing.debugPort": 5000,
+    "python.testing.pytestEnabled": true
 }
