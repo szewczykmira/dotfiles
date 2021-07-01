@@ -1,6 +1,6 @@
 [core]
   editor = vim
-  excludesfile = ~/.gitignore_global
+	excludesfile = /Users/mira/.gitignore_global
 
 [color]
   branch = auto
